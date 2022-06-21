@@ -1,0 +1,24 @@
+:root {
+  --barra-lateral: #CD212A;
+  --background: #E5E5E5;
+  --button-color: #FFFFFF;
+  --text-color: #000000;
+  --border-flavor-color: #595959;
+  --text-color: #000000;
+  --value-button-color: #008C45;
+  --button-hover: #008C45;
+  --border-input-color: #E3E3E3;
+  }
+  
+  * { //aqui é a coluna vermelha site
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  button {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+  }

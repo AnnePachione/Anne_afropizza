@@ -1,0 +1,28 @@
+button {
+
+      &:hover {
+        background-color: var(--button-hover);
+        color: var(--button-color);
+      }
+  
+      height: 2.5rem; 
+      width: 12.5rem;
+      background-color: var(--button-color);
+  
+      border: none;
+      border-radius: 0.5rem; // 16px
+      margin-top: 1.25rem; // 20px
+  
+      // Adicionado (Alinhamento a esquerda com padding)
+      text-align: left;
+      padding: 0 1.5rem; // 24px;
+  
+      // Adicionado (Alinhamento vertical)
+      display: flex;
+      align-items: center;
+      font-size: 1.125rem; // 18px;
+
+      font-size: 1rem;
+      font-family: 'Inter';
+      font-weight: 400;
+  }

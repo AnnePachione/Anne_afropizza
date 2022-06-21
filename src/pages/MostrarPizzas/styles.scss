@@ -1,0 +1,62 @@
+.cardapio {
+    width: 100%;
+    margin: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 500;
+  
+    
+        font-weight: 500;
+        font-family: 'EB Garamont';
+        font-size: 2rem;
+  
+  
+        text-align: left;
+        padding-bottom: 2rem;   
+        
+    }
+  
+    .card-container { //aparentemente não está alterando nada
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 0.5rem; 
+      column-gap: 2rem;
+  
+    
+      @media (max-width: 950px) {
+      //grid-template-columns: 1fr;
+        
+    }
+  
+  }
+    
+     .flavors { //como fazer isso comandar as informações
+        
+      margin: 1rem;
+       display: grid;
+      // grid-template-columns: 1fr;
+       //row-gap: 0.875rem; 
+       color: var(--text-color);
+       font-family: 'EB Garamont';
+    
+       font-weight: 400;
+       font-size: 1.5rem;
+       }
+    
+       .ingredients {
+         font-weight: 500;
+         color: var(--border-flavor-color);
+         font-family: 'EB Garamont';
+          font-size: 1rem;
+        }   
+  
+        .value {
+          font-size: 1.5rem;
+          font-weight: 500;
+          font-family: 'EB Garamont';
+          font-style: normal;
+          color: var(--value-button-color);
+          margin-left: 18rem;
+  
+          display: flex;
+        }
+  
